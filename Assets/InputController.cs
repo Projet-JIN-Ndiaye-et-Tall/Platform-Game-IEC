@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class InputController : MonoBehaviour {
-    public float jumpMaxDistance;
+    public float jumpMaxDistance = 50;
     private bool isJumping = false;
     private bool isFalling = true;
     private float jumpedDistance; // 
@@ -22,7 +22,11 @@ public class InputController : MonoBehaviour {
     }
     // Use this for initialization
     void Start () {
+<<<<<<< HEAD
         pas = jumpMaxDistance / 100;
+=======
+        pas = jumpMaxDistance / 7;
+>>>>>>> 77b6aad470abd01aef4cfafb4c4a04b2f1b8ced4
 	}
 	
 	// Update is called once per frame
