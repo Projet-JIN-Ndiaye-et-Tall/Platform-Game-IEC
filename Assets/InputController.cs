@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class InputController : MonoBehaviour {
-    public float jumpMaxDistance;
+    public float jumpMaxDistance = 50;
     private bool isJumping = false;
     private bool isFalling = false;
     private float jumpedDistance; // 

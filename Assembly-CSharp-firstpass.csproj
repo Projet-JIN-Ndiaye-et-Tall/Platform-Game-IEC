@@ -379,8 +379,17 @@
     <Reference Include="Unity.Locator">
       <HintPath>D:/softwares/Unity/Editor/Data/Managed/Unity.Locator.dll</HintPath>
     </Reference>
+    <Reference Include="Facebook.Unity">
+      <HintPath>D:/ETUDES/JIN/Platform-game-IEC/Platform-Game-IEC/Library/FacebookSDK/Facebook.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Arcade">
+      <HintPath>D:/ETUDES/JIN/Platform-game-IEC/Platform-Game-IEC/Library/FacebookSDK/Facebook.Unity.Arcade.dll</HintPath>
+    </Reference>
     <Reference Include="Facebook.Unity.Settings">
       <HintPath>D:/ETUDES/JIN/Platform-game-IEC/Platform-Game-IEC/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="FacebookNamedPipeClient">
+      <HintPath>D:/ETUDES/JIN/Platform-game-IEC/Platform-Game-IEC/Library/FacebookSDK/FacebookNamedPipeClient.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>D:/softwares/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
