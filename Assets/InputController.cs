@@ -22,7 +22,7 @@ public class InputController : MonoBehaviour {
     }
     // Use this for initialization
     void Start () {
-        pas = jumpMaxDistance / 50;
+        pas = jumpMaxDistance / 7;
 	}
 	
 	// Update is called once per frame
