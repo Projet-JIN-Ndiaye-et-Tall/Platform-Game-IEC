@@ -167,3 +167,4 @@ D:\Users\Dieylany\Documents\Jeu Platforme\obj\Debug\Assembly-CSharp.csproj.CoreC
 D:\Users\Dieylany\Documents\Jeu Platforme\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 D:\Users\Dieylany\Documents\Jeu Platforme\obj\Debug\Assembly-CSharp.dll
 D:\Users\Dieylany\Documents\Jeu Platforme\obj\Debug\Assembly-CSharp.pdb
+D:\Users\Dieylany\Documents\Jeu Platforme\Temp\bin\Debug\Facebook.Unity.Settings.dll
