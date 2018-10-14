@@ -166,3 +166,4 @@ D:\Users\Dieylany\Documents\Jeu Platforme\obj\Debug\Assembly-CSharp-firstpass.cs
 D:\Users\Dieylany\Documents\Jeu Platforme\obj\Debug\Assembly-CSharp-firstpass.csproj.CopyComplete
 D:\Users\Dieylany\Documents\Jeu Platforme\obj\Debug\Assembly-CSharp-firstpass.dll
 D:\Users\Dieylany\Documents\Jeu Platforme\obj\Debug\Assembly-CSharp-firstpass.pdb
+D:\Users\Dieylany\Documents\Jeu Platforme\Temp\bin\Debug\Facebook.Unity.Settings.dll

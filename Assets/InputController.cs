@@ -5,7 +5,7 @@ using UnityEngine;
 public class InputController : MonoBehaviour {
     public float jumpMaxDistance;
     private bool isJumping = false;
-    private bool isFalling = false;
+    private bool isFalling = true;
     private float jumpedDistance; // 
     private float pas = 10f;
     private CircleCollider2D bc;
@@ -22,7 +22,7 @@ public class InputController : MonoBehaviour {
     }
     // Use this for initialization
     void Start () {
-        pas = jumpMaxDistance / 50;
+        pas = jumpMaxDistance / 100;
 	}
 	
 	// Update is called once per frame
