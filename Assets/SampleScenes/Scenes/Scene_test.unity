@@ -559,7 +559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeb09b79a8704df4e811eca35cf80675, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpMaxDistance: 200
+  jumpMaxDistance: 100
 --- !u!58 &508204023
 CircleCollider2D:
   m_ObjectHideFlags: 0
