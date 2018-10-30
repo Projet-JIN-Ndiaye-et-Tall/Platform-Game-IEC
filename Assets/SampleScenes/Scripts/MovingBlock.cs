@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MovingBlock : MonoBehaviour {
 
-    public GameObject platform;
+    public GameObject[] platforms;
     // Use this for initialization
     void Start()
     {
@@ -21,7 +21,11 @@ public class MovingBlock : MonoBehaviour {
     {
         if (col.tag == "Player")
         {
-            platform.GetComponent<Animator>().enabled = true;
+            for(int i=0; i < platforms.Length; i++)
+            {
+                platforms[i].GetComponent<Animator>().enabled = true;
+            }
+            
           
         }
     }
