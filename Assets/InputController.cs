@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
 public class InputController : MonoBehaviour {
     public float jumpMaxDistance = 50;
     private bool isJumping = false;
@@ -22,11 +24,8 @@ public class InputController : MonoBehaviour {
     }
     // Use this for initialization
     void Start () {
-<<<<<<< HEAD
         pas = jumpMaxDistance / 100;
-=======
-        pas = jumpMaxDistance / 7;
->>>>>>> 77b6aad470abd01aef4cfafb4c4a04b2f1b8ced4
+
 	}
 	
 	// Update is called once per frame
@@ -68,7 +67,7 @@ public class InputController : MonoBehaviour {
 	}
 
     void OnTriggerEnter2D(Collider2D other)
-    {
+    {    
         if (other.tag == "Platform")
             isFalling = false;
     }
@@ -77,6 +76,5 @@ public class InputController : MonoBehaviour {
     {
         isFalling = true;
     }
-
-
+   
 }
