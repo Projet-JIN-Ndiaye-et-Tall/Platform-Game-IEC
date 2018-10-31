@@ -330,7 +330,7 @@ GameObject:
   m_Layer: 0
   m_Name: GroundCheck
   m_TagString: Untagged
-  m_Icon: {fileID: -2065832391, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -776,11 +776,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4820266190176784, guid: ab1c071c93aebd644a57aee2d6dbc53f, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -35.9
+      value: -41.5
       objectReference: {fileID: 0}
     - target: {fileID: 4820266190176784, guid: ab1c071c93aebd644a57aee2d6dbc53f, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.4
+      value: 1.79
       objectReference: {fileID: 0}
     - target: {fileID: 4820266190176784, guid: ab1c071c93aebd644a57aee2d6dbc53f, type: 2}
       propertyPath: m_LocalPosition.z
@@ -812,11 +812,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4820266190176784, guid: ab1c071c93aebd644a57aee2d6dbc53f, type: 2}
       propertyPath: m_LocalScale.x
-      value: 6.712375
+      value: 6.96
       objectReference: {fileID: 0}
     - target: {fileID: 4820266190176784, guid: ab1c071c93aebd644a57aee2d6dbc53f, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4820266190176784, guid: ab1c071c93aebd644a57aee2d6dbc53f, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 3.38
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab1c071c93aebd644a57aee2d6dbc53f, type: 2}
@@ -1241,7 +1245,7 @@ GameObject:
   - component: {fileID: 1327880934}
   m_Layer: 0
   m_Name: platform_fragile
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1560,11 +1564,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4820266190176784, guid: ab1c071c93aebd644a57aee2d6dbc53f, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -30.2
+      value: -28.34
       objectReference: {fileID: 0}
     - target: {fileID: 4820266190176784, guid: ab1c071c93aebd644a57aee2d6dbc53f, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 23.4
+      value: 16.8
       objectReference: {fileID: 0}
     - target: {fileID: 4820266190176784, guid: ab1c071c93aebd644a57aee2d6dbc53f, type: 2}
       propertyPath: m_LocalPosition.z
@@ -2129,7 +2133,7 @@ GameObject:
   m_Layer: 0
   m_Name: CeilingCheck
   m_TagString: Untagged
-  m_Icon: {fileID: -2065832391, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
