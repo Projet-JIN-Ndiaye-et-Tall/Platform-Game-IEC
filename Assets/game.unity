@@ -213,7 +213,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 21bbbb5910ff3c54dbce979cc8ee35a9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -394,6 +394,11 @@ Prefab:
     - target: {fileID: 4820266190176784, guid: ab1c071c93aebd644a57aee2d6dbc53f, type: 2}
       propertyPath: m_LocalScale.x
       value: 8.995313
+      objectReference: {fileID: 0}
+    - target: {fileID: 212434703924583202, guid: ab1c071c93aebd644a57aee2d6dbc53f,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab1c071c93aebd644a57aee2d6dbc53f, type: 2}
@@ -941,7 +946,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeb09b79a8704df4e811eca35cf80675, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpMaxDistance: 400
+  jumpMaxDistance: 800
 --- !u!50 &920846918
 Rigidbody2D:
   serializedVersion: 4
@@ -1275,7 +1280,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: e031251108e9b78419ddf56e0cc2d932, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

@@ -67,14 +67,33 @@ public class InputController : MonoBehaviour {
 	}
 
     void OnTriggerEnter2D(Collider2D other)
-    {    
+    {
+       
+
         if (other.tag == "Platform")
-            isFalling = false;
+        {
+            Debug.Log("MIN:"+other.bounds.min.y);
+            Debug.Log("MAX:"+other.bounds.max.y);
+            Debug.Log("Position:"+transform.position.y);
+            isJumping = false;
+            if (other.bounds.min.y < transform.position.y) {
+                Debug.Log("UP");
+                isFalling = false;
+            }
+
+            if(other.bounds.min.y >= transform.position.y)
+            {
+                Debug.Log("DOWN");
+                isFalling = true;
+                isJumping = false;
+            }
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         isFalling = true;
     }
+ 
    
 }
