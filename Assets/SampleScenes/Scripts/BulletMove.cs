@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BulletMove : MonoBehaviour
 {
-    public float speed = 12f;
+    public float speed = 6f;
     Transform myTransform;
     // Use this for initialization
     void Start()
@@ -16,6 +16,6 @@ public class BulletMove : MonoBehaviour
     void Update()
     {
         myTransform.Translate(Vector3.left * Time.deltaTime * speed);
-        Destroy(this.gameObject, 3f);
+        Destroy(this.gameObject, 1f);
     }
 }

@@ -8,6 +8,7 @@ public class BulletShot : MonoBehaviour
     public GameObject bullet;
     public GameObject spawnPoint;
     private BoxCollider2D bc;
+    public bool enableShoot;
 
     // Use this for initialization
     void Start()
@@ -19,10 +20,12 @@ public class BulletShot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Instantiate(bullet, spawnPoint.transform.position, spawnPoint.transform.rotation);
+
+        //if (Input.GetKeyDown(KeyCode.Space))
+        //if (enableShoot)
+        //{
+            //Instantiate(bullet, spawnPoint.transform.position, spawnPoint.transform.rotation);
           
-        }
+       // }
     }
 }
