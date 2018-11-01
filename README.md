@@ -2,7 +2,7 @@
 IHM PROJET MANETTE :   
 
   
-
+Video de demostration : https://drive.google.com/file/d/1yEIfLvYBU4kvn5gDcdLBYuXihK6den2L/view?usp=sharing
 Le but du jeu est d’atteindre l’objectif en surmontant les différents obstacles. 
 
 Scène du jeu :  
