@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Platform
   - winTxt
+  - wall
   layers:
   - Default
   - TransparentFX

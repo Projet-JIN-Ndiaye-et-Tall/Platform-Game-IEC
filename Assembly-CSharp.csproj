@@ -69,6 +69,7 @@
      <Compile Include="Assets\SampleScenes\Scripts\PlatformAttach.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
      <Compile Include="Assets\Shoot.cs" />
+     <Compile Include="Assets\TestWall.cs" />
      <Compile Include="Assets\Win.cs" />
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
  <Reference Include="UnityEditor.StandardEvents">

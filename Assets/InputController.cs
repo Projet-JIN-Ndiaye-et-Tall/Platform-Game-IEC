@@ -22,7 +22,7 @@ public class InputController : MonoBehaviour {
     }
     // Use this for initialization
     void Start () {
-        pas = jumpMaxDistance / 7;
+        pas = jumpMaxDistance / 15;
 	}
 	
 	// Update is called once per frame
@@ -65,9 +65,10 @@ public class InputController : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log("ok");
         if (other.tag == "Platform")
             isFalling = false;
-    }
+        }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
