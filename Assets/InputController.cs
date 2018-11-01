@@ -2,12 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-<<<<<<< HEAD
-public class InputController : MonoBehaviour {
-    public float jumpMaxDistance = 50;
-    private bool isJumping = false;
-    private bool isFalling = true;
-=======
 
 enum Position { AIR, HorizontalPlatform, VerticalPlatform };
 
@@ -18,7 +12,6 @@ public class InputController : MonoBehaviour
     private bool isJumping = false;
     private bool isFalling = true;
     private int nbJump = 0;
->>>>>>> bamba
     private float jumpedDistance; // 
     private float pas = 10f;
     private CircleCollider2D bc;
@@ -34,18 +27,6 @@ public class InputController : MonoBehaviour
         rb.bodyType = RigidbodyType2D.Kinematic;
     }
     // Use this for initialization
-<<<<<<< HEAD
-    void Start () {
-<<<<<<< HEAD
-        pas = jumpMaxDistance / 100;
-=======
-        pas = jumpMaxDistance / 7;
->>>>>>> 77b6aad470abd01aef4cfafb4c4a04b2f1b8ced4
-	}
-	
-	// Update is called once per frame
-	void Update () {
-=======
     void Start()
     {
         pas = jumpMaxDistance / 50;
@@ -60,7 +41,6 @@ public class InputController : MonoBehaviour
         Debug.Log("Distance:" + jumpedDistance);
         Debug.Log("Position:" + transform.position);
         Debug.Log("PlatformOrientation:" + currentPosition);
->>>>>>> bamba
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
 
