@@ -15,6 +15,9 @@ public class InputController : MonoBehaviour
     private CircleCollider2D bc;
     private Rigidbody2D rb;
     Position currentPosition;
+    [SerializeField]
+    private MeshRenderer meshRenderer;
+
     void Awake()
     {
 
